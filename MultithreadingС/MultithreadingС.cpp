@@ -104,7 +104,7 @@ void F(int a) {
 }
 
 void Print3(char s) {
-    unique_lock<mutex> ul(mtx);//автоматический lock
+    //unique_lock<mutex> ul(mtx);//автоматический lock
     unique_lock<mutex> ul(mtx, defer_lock); //отключение автоматического lock
     this_thread::sleep_for(chrono::milliseconds(1000));
 
@@ -163,12 +163,17 @@ int main()
     t1.join();
     t2.join();*/
 
-    thread t1(F, 10);
+    /*thread t1(F, 10);
     thread t2(F, 10);
 
     t1.join();
-    t2.join();
+    t2.join();*/
 
+    thread t1(Print, 'c');
+    thread t2(Print, 's');
+
+    t1.join();
+    t2.join();
 
 
     _getch();
