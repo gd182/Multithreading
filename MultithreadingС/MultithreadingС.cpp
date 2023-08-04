@@ -175,7 +175,8 @@ int main()
     t1.join();
     t2.join();
 
-    cout << ii << ;
+
+    //test
     _getch();
     return 0;
 }
