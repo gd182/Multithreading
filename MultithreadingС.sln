@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultithreadingС", "MultithreadingС\MultithreadingС.vcxproj", "{EC137BE1-75F6-4690-A807-D51B2F6AE407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Debug|x64.ActiveCfg = Debug|x64
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Debug|x64.Build.0 = Debug|x64
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Debug|x86.Build.0 = Debug|Win32
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Release|x64.ActiveCfg = Release|x64
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Release|x64.Build.0 = Release|x64
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Release|x86.ActiveCfg = Release|Win32
+		{EC137BE1-75F6-4690-A807-D51B2F6AE407}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {395BE8DE-5627-4CB6-8A3F-3DBB5920E72F}
+	EndGlobalSection
+EndGlobal
