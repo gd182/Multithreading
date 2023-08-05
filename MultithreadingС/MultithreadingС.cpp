@@ -121,8 +121,8 @@ void Print3(char s) {
 
 int main()
 {
-    /*//setlocate(LC_ALL,"ru");
-    cout << "start"<<endl;
+    setlocale(LC_ALL,"ru");
+    /*cout << "start"<<endl;
     int count = 5;
     
     //thread th(Work);
